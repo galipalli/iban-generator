@@ -33,6 +33,7 @@ public class IbanGenerator {
 			}
 		}
 		iban.append(bban);
+		UNIQUE_IBAN_NUMBERS.add(bban);
 		return iban.toString();
 	}
 
